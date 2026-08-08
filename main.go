@@ -7,15 +7,15 @@ func main() {
 	var a, b float64
 	var operator string
 
-	fmt.Println("Калькулятор на Go")
+	fmt.Println("Go-calculator")
 
-	fmt.Print("Вводим первое число:")
+	fmt.Print("We enter the first number:")
 	fmt.Scan(&a)
 
-	fmt.Print("Вводим оператор: (+, -, *, /): ")
+	fmt.Print("We enter the operator: (+, -, *, /): ")
 	fmt.Scan(&operator)
 
-	fmt.Print("Вводим второе число:")
+	fmt.Print("We enter the second number:")
 	fmt.Scan(&b)
 
 	var result float64
