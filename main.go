@@ -44,7 +44,7 @@ func main() {
 			fmt.Println("Bye!")
 			return
 		default:
-			fmt.Println("Error! Invalid number!")
+			fmt.Println("Error!! Invalid number!")
 		}
 
 	}
