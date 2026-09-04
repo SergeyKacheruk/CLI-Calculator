@@ -34,8 +34,7 @@ func main() {
 			continue
 		}
 		fmt.Printf("%.2f %s %.2f = %.2f\n\n", a, operator, b, result)
-		fmt.Print("Do you want to continue? 1 - Yes, 2 - No: ")
-		fmt.Scan(&choice)
+		getInput("Do you want to continue? 1 - Yes, 2 - No: ", &choice)
 
 		switch choice {
 		case 1:
